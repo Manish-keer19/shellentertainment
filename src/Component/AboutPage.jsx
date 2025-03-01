@@ -49,7 +49,7 @@ const AboutPage = () => {
       {/* Main Content and Sidebar */}
       <div className="container mx-auto px-4 py-8 md:py-16 flex flex-col md:flex-row gap-6 md:gap-8">
         {/* Sidebar */}
-        <aside className="w-full md:w-1/4 order-2 md:order-1">
+        {/* <aside className="w-full md:w-1/4 order-2 md:order-1">
           <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md border border-gray-200 sticky top-4">
             <h4 className="text-base sm:text-lg font-semibold text-gray-700 mb-4">
               TABLE OF CONTENTS
@@ -75,17 +75,17 @@ const AboutPage = () => {
               ))}
             </ul>
           </div>
-        </aside>
+        </aside> */}
 
         {/* Main Content */}
-        <main className="w-full md:w-3/4 order-1 md:order-2">
+        {/* <main className="w-full md:w-3/4 order-1 md:order-2">
           <div className="bg-gray-100 p-4 sm:p-6 rounded-lg h-auto min-h-[16rem]">
             <p className="text-gray-700 text-sm sm:text-base">
               Additional content about Shell-Entertenment Digital Marketing
               Agency will go here.
             </p>
           </div>
-        </main>
+        </main> */}
       </div>
 
       {/* Proposal Section */}
@@ -440,6 +440,86 @@ const AboutPage = () => {
           />
         </div>
       </div>
+
+      {/* Contact & Email Section */}
+      {/* <section className="bg-gray-100 py-10">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+            Contact Us
+          </h2>
+          <p className="text-gray-600 text-sm sm:text-base mb-6">
+            Feel free to reach out for any inquiries or consultations.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                📞 Phone
+              </h3>
+              <p className="text-blue-600 text-lg">+918003570024</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                📧 Email
+              </h3>
+              <p className="text-blue-600 text-lg">shellentertainment30@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* Contact & Email Section */}
+      <section className="bg-gray-100 py-10">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+            Contact Us
+          </h2>
+          <p className="text-gray-600 text-sm sm:text-base mb-6">
+            Feel free to reach out for any inquiries or consultations.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            {/* Phone */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                📞 Phone
+              </h3>
+              <p className="text-blue-600 text-lg">+918003570024</p>
+            </div>
+
+            {/* Email */}
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                📧 Email
+              </h3>
+              <p className="text-blue-600 text-lg">
+                shellentertainment30@gmail.com
+              </p>
+            </div>
+          </div>
+
+          {/* Social Media Links */}
+          <div className="mt-8 flex justify-center gap-6">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/shellentertainment?igsh=NzZvdHlybHlvM3Mx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 text-lg hover:text-blue-800 transition duration-300"
+            >
+              📷 Instagram
+            </a>
+
+            {/* Twitter */}
+            {/* <a
+        href="https://twitter.com/your_twitter_username"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 text-lg hover:text-blue-800 transition duration-300"
+      >
+        🐦 Twitter
+      </a> */}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
